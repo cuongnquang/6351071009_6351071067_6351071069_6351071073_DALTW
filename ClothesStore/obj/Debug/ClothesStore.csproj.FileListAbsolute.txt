@@ -1,0 +1,162 @@
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\ClothesStore.dll.config
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\ClothesStore.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\ClothesStore.pdb
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\BCrypt.Net-Next.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\EntityFramework.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\EntityFramework.SqlServer.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\Firebase.Auth.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\Firebase.Storage.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\Newtonsoft.Json.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\PagedList.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\PagedList.Mvc.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\SendGrid.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\StarkbankEcdsa.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Buffers.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Memory.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Numerics.Vectors.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.Helpers.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.Mvc.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.Razor.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.WebPages.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\BCrypt.Net-Next.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\EntityFramework.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\EntityFramework.SqlServer.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\Newtonsoft.Json.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\PagedList.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\PagedList.Mvc.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\SendGrid.pdb
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\SendGrid.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Buffers.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Memory.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Numerics.Vectors.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.Helpers.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.Mvc.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.Razor.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.WebPages.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\obj\Debug\ClothesStore.csproj.AssemblyReference.cache
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\obj\Debug\ClothesStore.csproj.CoreCompileInputs.cache
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\obj\Debug\ClothesS.FF55E969.Up2Date
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\obj\Debug\ClothesStore.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\obj\Debug\ClothesStore.pdb
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\csc.exe
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\csc.exe.config
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\csc.rsp
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\csi.exe
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\csi.exe.config
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\csi.rsp
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\System.Buffers.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\System.Memory.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\vbc.exe
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\vbc.exe.config
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\vbc.rsp
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\cuong\Source\Repos\Clothes\ClothesStore\bin\roslyn\VBCSCompiler.exe.config
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\ClothesStore.dll.config
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\ClothesStore.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\ClothesStore.pdb
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\csc.exe
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\csc.exe.config
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\csc.rsp
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\csi.exe
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\csi.exe.config
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\csi.rsp
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\System.Buffers.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\System.Collections.Immutable.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\System.Memory.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\System.Numerics.Vectors.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\System.Reflection.Metadata.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\vbc.exe
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\vbc.exe.config
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\vbc.rsp
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\VBCSCompiler.exe
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\roslyn\VBCSCompiler.exe.config
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\BCrypt.Net-Next.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\EntityFramework.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\EntityFramework.SqlServer.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\Firebase.Auth.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\Firebase.Storage.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\Microsoft.Web.Infrastructure.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\Newtonsoft.Json.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\PagedList.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\PagedList.Mvc.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\SendGrid.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\StarkbankEcdsa.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Buffers.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Memory.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Numerics.Vectors.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.Helpers.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.Mvc.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.Razor.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.WebPages.Deployment.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.WebPages.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.WebPages.Razor.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\BCrypt.Net-Next.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\EntityFramework.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\EntityFramework.SqlServer.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\Newtonsoft.Json.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\PagedList.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\PagedList.Mvc.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\SendGrid.pdb
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\SendGrid.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Buffers.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Memory.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Numerics.Vectors.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.Helpers.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.Mvc.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.Razor.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.WebPages.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.WebPages.Deployment.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\bin\System.Web.WebPages.Razor.xml
+D:\Lập Trình Web\ClothesStore\ClothesStore\obj\Debug\ClothesStore.csproj.AssemblyReference.cache
+D:\Lập Trình Web\ClothesStore\ClothesStore\obj\Debug\ClothesStore.csproj.CoreCompileInputs.cache
+D:\Lập Trình Web\ClothesStore\ClothesStore\obj\Debug\ClothesS.FF55E969.Up2Date
+D:\Lập Trình Web\ClothesStore\ClothesStore\obj\Debug\ClothesStore.dll
+D:\Lập Trình Web\ClothesStore\ClothesStore\obj\Debug\ClothesStore.pdb

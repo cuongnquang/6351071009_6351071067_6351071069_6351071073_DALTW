@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ClothesModelStoreContainer" CdmEntityContainer="TESTEntities">
+    <EntitySetMapping Name="Carts">
+      <EntityTypeMapping TypeName="ClothesModel.Cart">
+        <MappingFragment StoreEntitySet="Cart">
+          <ScalarProperty Name="CartID" ColumnName="CartID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CartDetails">
+      <EntityTypeMapping TypeName="ClothesModel.CartDetail">
+        <MappingFragment StoreEntitySet="CartDetail">
+          <ScalarProperty Name="CartDetailID" ColumnName="CartDetailID" />
+          <ScalarProperty Name="CartID" ColumnName="CartID" />
+          <ScalarProperty Name="ClothesID" ColumnName="ClothesID" />
+          <ScalarProperty Name="ClothesName" ColumnName="ClothesName" />
+          <ScalarProperty Name="MainImage" ColumnName="MainImage" />
+          <ScalarProperty Name="SizeName" ColumnName="SizeName" />
+          <ScalarProperty Name="ColorID" ColumnName="ColorID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="ClothesModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Category_ClothingType">
+      <EntityTypeMapping TypeName="ClothesModel.Category_ClothingType">
+        <MappingFragment StoreEntitySet="Category_ClothingType">
+          <ScalarProperty Name="CateCloTypeName" ColumnName="CateCloTypeName" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="ClothingTypeID" ColumnName="ClothingTypeID" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="UrlImg" ColumnName="UrlImg" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clothes">
+      <EntityTypeMapping TypeName="ClothesModel.Cloth">
+        <MappingFragment StoreEntitySet="Clothes">
+          <ScalarProperty Name="ClothesID" ColumnName="ClothesID" />
+          <ScalarProperty Name="ClothesName" ColumnName="ClothesName" />
+          <ScalarProperty Name="MainImage" ColumnName="MainImage" />
+          <ScalarProperty Name="UrlImage" ColumnName="UrlImage" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="PriceSale" ColumnName="PriceSale" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Fabric" ColumnName="Fabric" />
+          <ScalarProperty Name="UserInstructions" ColumnName="UserInstructions" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="ClothingTypeID" ColumnName="ClothingTypeID" />
+          <ScalarProperty Name="ClothingStyleID" ColumnName="ClothingStyleID" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clothes_Color_Size">
+      <EntityTypeMapping TypeName="ClothesModel.Clothes_Color_Size">
+        <MappingFragment StoreEntitySet="Clothes_Color_Size">
+          <ScalarProperty Name="ClothesID" ColumnName="ClothesID" />
+          <ScalarProperty Name="ColorID" ColumnName="ColorID" />
+          <ScalarProperty Name="SizeID" ColumnName="SizeID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClothingStyles">
+      <EntityTypeMapping TypeName="ClothesModel.ClothingStyle">
+        <MappingFragment StoreEntitySet="ClothingStyle">
+          <ScalarProperty Name="ClothingStyleID" ColumnName="ClothingStyleID" />
+          <ScalarProperty Name="ClothingStyleName" ColumnName="ClothingStyleName" />
+          <ScalarProperty Name="ClothingTypeID" ColumnName="ClothingTypeID" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClothingTypes">
+      <EntityTypeMapping TypeName="ClothesModel.ClothingType">
+        <MappingFragment StoreEntitySet="ClothingType">
+          <ScalarProperty Name="ClothingTypeID" ColumnName="ClothingTypeID" />
+          <ScalarProperty Name="ClothingTypeName" ColumnName="ClothingTypeName" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Colors">
+      <EntityTypeMapping TypeName="ClothesModel.Color">
+        <MappingFragment StoreEntitySet="Color">
+          <ScalarProperty Name="ColorID" ColumnName="ColorID" />
+          <ScalarProperty Name="ColorName" ColumnName="ColorName" />
+          <ScalarProperty Name="ImageColor" ColumnName="ImageColor" />
+          <ScalarProperty Name="UrlImage" ColumnName="UrlImage" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Images">
+      <EntityTypeMapping TypeName="ClothesModel.Image">
+        <MappingFragment StoreEntitySet="Image">
+          <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+          <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+          <ScalarProperty Name="MainImage" ColumnName="MainImage" />
+          <ScalarProperty Name="UrlMainImg" ColumnName="UrlMainImg" />
+          <ScalarProperty Name="SecondaryImage1" ColumnName="SecondaryImage1" />
+          <ScalarProperty Name="UrlSecondaryImage1" ColumnName="UrlSecondaryImage1" />
+          <ScalarProperty Name="SecondaryImage2" ColumnName="SecondaryImage2" />
+          <ScalarProperty Name="UrlSecondaryImage2" ColumnName="UrlSecondaryImage2" />
+          <ScalarProperty Name="SecondaryImage3" ColumnName="SecondaryImage3" />
+          <ScalarProperty Name="UrlSecondaryImage3" ColumnName="UrlSecondaryImage3" />
+          <ScalarProperty Name="ClothesID" ColumnName="ClothesID" />
+          <ScalarProperty Name="ColorID" ColumnName="ColorID" />
+          <ScalarProperty Name="ImageOrder" ColumnName="ImageOrder" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDetails">
+      <EntityTypeMapping TypeName="ClothesModel.OrderDetail">
+        <MappingFragment StoreEntitySet="OrderDetails">
+          <ScalarProperty Name="OrderDetailID" ColumnName="OrderDetailID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ClothesID" ColumnName="ClothesID" />
+          <ScalarProperty Name="ClothesName" ColumnName="ClothesName" />
+          <ScalarProperty Name="MainImage" ColumnName="MainImage" />
+          <ScalarProperty Name="SizeName" ColumnName="SizeName" />
+          <ScalarProperty Name="ColorID" ColumnName="ColorID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="ClothesModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OtpRecords">
+      <EntityTypeMapping TypeName="ClothesModel.OtpRecord">
+        <MappingFragment StoreEntitySet="OtpRecords">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Otp" ColumnName="Otp" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="ExpiresAt" ColumnName="ExpiresAt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="ClothesModel.Payment">
+        <MappingFragment StoreEntitySet="Payments">
+          <ScalarProperty Name="PaymentID" ColumnName="PaymentID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profiles">
+      <EntityTypeMapping TypeName="ClothesModel.Profile">
+        <MappingFragment StoreEntitySet="Profiles">
+          <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sizes">
+      <EntityTypeMapping TypeName="ClothesModel.Size">
+        <MappingFragment StoreEntitySet="Size">
+          <ScalarProperty Name="SizeID" ColumnName="SizeID" />
+          <ScalarProperty Name="SizeName" ColumnName="SizeName" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRoles">
+      <EntityTypeMapping TypeName="ClothesModel.UserRole">
+        <MappingFragment StoreEntitySet="UserRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ClothesModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
