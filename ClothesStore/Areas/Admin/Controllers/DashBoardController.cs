@@ -155,6 +155,26 @@ namespace ClothesStore.Areas.Admin.Controllers
 
             return View();
         }
+        [HttpPost]
+        public ActionResult Logout()
+        {
+            // Hủy session và cookies nếu cần
+            Session.Clear();
+            Session.Abandon();
 
+            // Xóa Authentication Cookie
+            if (Request.Cookies[".AspNet.ApplicationCookie"] != null)
+            {
+                var cookie = new HttpCookie(".AspNet.ApplicationCookie")
+                {
+                    Expires = DateTime.Now.AddDays(-1),
+                    HttpOnly = true
+                };
+                Response.Cookies.Add(cookie);
+            }
+
+            // Chuyển hướng về trang chủ
+            return RedirectToAction("Index", "Home");
+        }
     }
 }

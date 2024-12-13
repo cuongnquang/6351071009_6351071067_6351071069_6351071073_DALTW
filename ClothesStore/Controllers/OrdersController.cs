@@ -88,14 +88,35 @@ namespace ClothesStore.Controllers
                 return Json(new { success = false, message = "Vui lòng điền đầy đủ thông tin thanh toán và giao hàng." });
             }
 
-
-
             int userId = (int)Session["UserId"];
 
+            // Lấy thông tin chi tiết giỏ hàng
             var cartDetails = db.Carts
-            .Where(c => c.UserID == userId)
-            .SelectMany(c => c.CartDetails)
-            .ToList();
+                .Where(c => c.UserID == userId)
+                .SelectMany(c => c.CartDetails)
+                .ToList();
+
+            if (!cartDetails.Any())
+            {
+                return Json(new { success = false, message = "Giỏ hàng của bạn trống." });
+            }
+
+            // Kiểm tra số lượng trong kho
+            foreach (var item in cartDetails)
+            {
+                var product = db.Clothes_Color_Size
+                    .FirstOrDefault(p => p.ClothesID == item.ClothesID && p.ColorID == item.ColorID && p.Size.SizeName == item.SizeName);
+
+                if (product == null)
+                {
+                    return Json(new { success = false, message = $"Sản phẩm {item.ClothesName} không tồn tại." });
+                }
+
+                if (product.Quantity == 0 || product.Quantity < item.Quantity)
+                {
+                    return Json(new { success = false, message = $"Sản phẩm {item.ClothesName} không đủ số lượng." });
+                }
+            }
 
             // Tạo một đơn hàng mới
             var newOrder = new Order
@@ -109,8 +130,17 @@ namespace ClothesStore.Controllers
             db.Orders.Add(newOrder);
             db.SaveChanges(); // Lúc này OrderID sẽ được tự động gán
 
+            // Cập nhật số lượng sản phẩm trong kho và thêm chi tiết đơn hàng
             foreach (var item in cartDetails)
             {
+                var product = db.Clothes_Color_Size
+                    .FirstOrDefault(p => p.ClothesID == item.ClothesID && p.ColorID == item.ColorID && p.Size.SizeName == item.SizeName);
+
+                if (product != null)
+                {
+                    product.Quantity -= item.Quantity; // Trừ số lượng
+                }
+
                 var orderDetail = new OrderDetail
                 {
                     OrderID = newOrder.OrderID, // FK đến Order
@@ -121,13 +151,13 @@ namespace ClothesStore.Controllers
                     SizeName = item.SizeName, // Kích cỡ
                     Quantity = item.Quantity, // Số lượng
                     Price = item.Price, // Giá sản phẩm
-                    //TotalPrice = item.Price * item.Quantity
                 };
+
                 db.OrderDetails.Add(orderDetail);
             }
-            db.SaveChanges();
+            db.SaveChanges(); // Lưu cập nhật số lượng và chi tiết đơn hàng
 
-            // Xóa sản phẩm khỏi giỏ hàng sau khi đã lưu vào OrderDetail
+            // Xóa sản phẩm khỏi giỏ hàng
             var cart = db.Carts.FirstOrDefault(c => c.UserID == userId);
             if (cart != null)
             {
@@ -138,6 +168,7 @@ namespace ClothesStore.Controllers
             // Trả về JSON với OrderID để client có thể sử dụng để điều hướng
             return Json(new { success = true, orderId = newOrder.OrderID, totalAmount = totalAmount });
         }
+
 
 
         [HttpGet]
@@ -196,5 +227,48 @@ namespace ClothesStore.Controllers
             }
             return Json(new { success = false, message = "Không tìm thấy đơn hàng." });
         }
+        [HttpPost]
+        public ActionResult ProcessOrder(int orderId)
+        {
+            // Lấy thông tin đơn hàng
+            var order = db.Orders.Include("OrderDetails").SingleOrDefault(o => o.OrderID == orderId);
+
+            if (order == null)
+            {
+                return Json(new { success = false, message = "Đơn hàng không tồn tại." });
+            }
+
+            foreach (var detail in order.OrderDetails)
+            {
+                // Tìm sản phẩm trong bảng Clothes_Color_Size
+                var product = db.Clothes_Color_Size.SingleOrDefault(c =>
+                    c.ClothesID == detail.ClothesID &&
+                    c.ColorID == detail.ColorID);
+
+                if (product != null)
+                {
+                    if (product.Quantity >= detail.Quantity)
+                    {
+                        // Giảm số lượng sản phẩm
+                        product.Quantity = (int)(product.Quantity - detail.Quantity);
+                    }
+                    else
+                    {
+                        return Json(new { success = false, message = $"Sản phẩm không đủ số lượng trong kho." });
+                    }
+                }
+                else
+                {
+                    return Json(new { success = false, message = $"Sản phẩm với ID {detail.ClothesID} không tồn tại trong kho." });
+                }
+            }
+
+            // Cập nhật trạng thái đơn hàng
+            order.Status = "Completed"; // Đánh dấu đơn hàng là hoàn thành
+            db.SaveChanges(); // Lưu thay đổi vào cơ sở dữ liệu
+
+            return Json(new { success = true, message = "Thanh toán thành công, kho đã được cập nhật." });
+        }
+
     }
 }
