@@ -114,6 +114,7 @@ namespace ClothesStore.Controllers
 
                 if (product.Quantity == 0 || product.Quantity < item.Quantity)
                 {
+
                     return Json(new { success = false, message = $"Sản phẩm {item.ClothesName} không đủ số lượng." });
                 }
             }
